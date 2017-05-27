@@ -4,7 +4,7 @@
 ?>
 <div class="container">
 	<div class="row">
-		<form class="col s12">
+		<form class="col s12" method="POST" action="controller/registerController.php?action=register">
 			<div class="row">
 				<div class="input-field col s12">
 		          <input placeholder="email" id="email" name="email" type="text" class="validate">
